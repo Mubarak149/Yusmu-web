@@ -1,0 +1,71 @@
+INFO 2024-12-14 10:01:07,191 payment_view Payment initiation started for user: AnonymousUser
+ERROR 2024-12-14 10:01:08,532 payment_view Payment failed: 'dict' object has no attribute 'raise_for_status'
+Traceback (most recent call last):
+  File "/home/mk/coding/yusmu/student/payment_view.py", line 135, in async_post
+    response.raise_for_status()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'raise_for_status'
+INFO 2024-12-14 10:01:51,255 payment_view Payment initiation started for user: AnonymousUser
+ERROR 2024-12-14 10:01:52,234 payment_view Payment failed: 'dict' object has no attribute 'raise_for_status'
+Traceback (most recent call last):
+  File "/home/mk/coding/yusmu/student/payment_view.py", line 135, in async_post
+    response.raise_for_status()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'raise_for_status'
+INFO 2024-12-14 10:04:33,784 payment_view Payment initiation started for user: AnonymousUser
+ERROR 2024-12-14 10:04:34,743 payment_view Payment failed: 'dict' object has no attribute 'raise_for_status'
+Traceback (most recent call last):
+  File "/home/mk/coding/yusmu/student/payment_view.py", line 137, in async_post
+    response.raise_for_status()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'raise_for_status'
+INFO 2024-12-14 10:07:37,937 payment_view Payment initiation started for user: AnonymousUser
+ERROR 2024-12-14 10:07:41,672 payment_view Payment failed: 'dict' object has no attribute 'raise_for_status'
+Traceback (most recent call last):
+  File "/home/mk/coding/yusmu/student/payment_view.py", line 138, in async_post
+    response.raise_for_status()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'raise_for_status'
+INFO 2024-12-14 10:09:29,980 payment_view Payment initiation started for user: AnonymousUser
+ERROR 2024-12-14 10:09:31,774 payment_view Payment failed: 'dict' object has no attribute 'raise_for_status'
+Traceback (most recent call last):
+  File "/home/mk/coding/yusmu/student/payment_view.py", line 138, in async_post
+    response.raise_for_status()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'raise_for_status'
+INFO 2024-12-14 10:10:33,200 payment_view Payment initiation started for user: AnonymousUser
+ERROR 2024-12-14 10:10:39,000 payment_view Payment failed: 'dict' object has no attribute 'raise_for_status'
+Traceback (most recent call last):
+  File "/home/mk/coding/yusmu/student/payment_view.py", line 138, in async_post
+    response.raise_for_status()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'raise_for_status'
+INFO 2024-12-14 10:14:01,428 payment_view Payment initiation started for user: AnonymousUser
+ERROR 2024-12-14 10:14:02,535 payment_view Payment failed: 'dict' object has no attribute 'json'
+Traceback (most recent call last):
+  File "/home/mk/coding/yusmu/student/payment_view.py", line 139, in async_post
+    response_data = response.json()
+                    ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'json'
+INFO 2024-12-14 10:18:26,135 payment_view Payment initiation started for user: AnonymousUser
+ERROR 2024-12-14 10:18:27,051 payment_view Invalid response from payment service: No redirect URL found in response
+Traceback (most recent call last):
+  File "/home/mk/coding/yusmu/student/payment_view.py", line 145, in async_post
+    raise ValueError("No redirect URL found in response")
+ValueError: No redirect URL found in response
+INFO 2024-12-14 10:21:17,891 payment_view Payment initiation started for user: AnonymousUser
+INFO 2024-12-14 10:24:05,850 payment_view Payment initiation started for user: AnonymousUser
+INFO 2024-12-15 11:23:23,112 views Payment initiation started for user: AnonymousUser
+ERROR 2024-12-15 11:23:25,085 views Payment failed: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/mk/coding/yusmu/payment/views.py", line 161, in async_post
+    cashier_url = response_data.get("data", {}).get("cashierUrl")
+                  ^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+INFO 2024-12-15 11:35:30,362 views Payment initiation started for user: AnonymousUser
+ERROR 2024-12-15 11:35:37,119 views Payment failed: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/mk/coding/yusmu/payment/views.py", line 160, in async_post
+    cashier_url = response_data.get("data", {}).get("cashierUrl")
+                  ^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
